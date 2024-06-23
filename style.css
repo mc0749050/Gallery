@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body{
+  width: 100vw;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.photos{
+  margin-top: 135px;
+  width: 80%;
+  height: 300px;
+  margin-left: 10%;
+}
+.photos img{
+  width: 100%;
+  border: 2px solid black;
+}
+.container i{
+ font-size: 50px;
+ color: #ABACCF;
+}
+.container .left{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+}
+.container .right{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+}
+
+video{
+  width: 20%;
+  position: absolute;
+  left: 40%;
+  top: 13px;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #1E4BFF;
+  font-size: 20px;
+  padding: 9px 60px;
+  margin-left: 75px;
+  z-index: 500;
+  position: absolute;
+  bottom: 50px;
+}
